@@ -1,0 +1,176 @@
+/*Defult Css*/
+.heading-border::after{
+    content: "";
+    display: block;
+    height: 4px;
+    background: #F38181;
+    width: 75px;
+    margin: auto;
+    margin-top: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    background: linear-gradient(rgba(233, 131, 131, 0.9), rgba(237, 183, 135, 0.9)), url('img/banner.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 680px;
+
+}
+#header .nav-link{
+    color: rgba(255, 255, 255, 0.8);
+}
+#header .nav-link:hover{
+    color: #FCE38A;
+    border-bottom: 2px solid #FCE38A;
+}
+#header .navbar-toggler{
+    border: 2px solid #fff;
+}
+#header nav.uk-sticky-fixed{
+    background: rgba(238, 144, 144, 0.8);
+}
+
+#about .about-item::after{
+    background: linear-gradient(rgba(233, 131, 131, 0.9), rgba(237, 183, 135, 0.9));
+    content: "SUPER TEAM";
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+#about .about-item:hover{
+
+}
+
+#work-bg{
+    background: #95E1D3;
+}
+#work-bg .border-r{
+    border-right: 1px solid #ddd;
+  
+}
+#work-bg .count{
+    line-height: 100px;
+    color:white;
+    font-size:55px;
+    text-align: center;  
+}
+
+#services .far, #services .fas, #services .fab {
+    font-size: 45px;
+    color: #95E1D3;
+}
+
+.phone{
+    margin-top: 260px;
+    margin-left: -100px;
+}
+
+#unique-design{
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('img/banner2.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.position-relative{
+    position: relative;
+}
+.phone {
+    position: absolute;
+    bottom: -60px;
+    right: 120px;
+}
+
+#testimonial .blockquote-footer::before {
+    content: "\2014";
+    color: #F38181;
+    font-size: 18px;
+    font-weight: 900;
+}
+#testimonial .slick-prev::before,.slick-next::before{
+    color: black;
+    size: 20px;
+}
+#testimonial-2 .slick-prev::before, .slick-next::before{
+    color: black;
+    size: 20px;
+}
+#portolio-gellary img{
+    width: 100%;
+    height: 100%;
+}
+#team img{
+    width: 100%;
+    height: 100%;
+}
+
+#happy-clints{
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('img/seaside-.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.clints-border{
+    position: relative;
+}
+.clints-border::after{
+    content: "";
+    display: block;
+    height: 5px;
+    background: #F38181;
+    width: 75px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+hr{
+    border-top: 1px solid rgba(102, 102, 102, 0.5);
+}
+
+#blog span {
+    font-size: 25px;
+}
+#blog .fas, #blog .far, #blog .fab {
+    color: #95E1D3;
+    font-size: 25px;
+}
+
+#blog .date {
+    position: absolute;
+    background: #95E1D3;
+    padding: 10px;
+    color: #fff;
+    top: 110px;
+    left: 0;
+}
+/**/
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+    #header .nav-link:first-child{
+        padding-left: 12px;
+    }
+    #header .nav-link:hover{
+        border-bottom: none;
+    } 
+    #work-bg .border-r{
+        border-right: none;
+    }
+
+
+}
+@media(max-width: 767px) {
+
+}
